@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon color="primary">menu</mat-icon>
+    </button>
+    <span >Encontre o seu novo Livro</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" >
+      <mat-icon color="primary">favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" color="primary"  aria-label="Example icon-button with share icon">
+      <mat-icon color="primary">share</mat-icon>
+    </button>
+  </mat-toolbar>
+
+<div class="row">
+
+    <div class="col">
+        <app-filters></app-filters>
+    </div>
+    <div class="col md-8">
+        <app-product-list></app-product-list>        
+    </div>
+
+</div>
